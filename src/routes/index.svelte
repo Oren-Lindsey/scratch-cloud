@@ -42,7 +42,7 @@
         <div class="bg-gray-100 dark:bg-slate-700 rounded-[5px] p-2 border-2 border-gray-100 dark:border-slate-600 shadow-lg">
             <h3 class="text-gray-500 dark:text-white">Griffpatch's Multiplayer Cloud Games</h3>
             <div class="grid place-items-center my-2">
-                <!--<a href="/studio/539952" class="bg-orange-500 dark:bg-orange-600 text-white transition ease-in-out px-2 hover:bg-white dark:hover:bg-slate-900 dark:hover:text-orange-600 dark:text-slate-900 hover:text-orange-500 rounded-[5px]">View studio cloud data</a>-->
+                <a href="/studio/539952" class="bg-orange-500 dark:bg-orange-600 text-white transition ease-in-out px-2 hover:bg-white dark:hover:bg-slate-900 dark:hover:text-orange-600 dark:text-slate-900 hover:text-orange-500 rounded-[5px]">View studio cloud data</a>
             </div>
             <div class="grid place-items-center my-2">
                 <a href="https://scratch.mit.edu/studios/539952" class="bg-orange-500 dark:bg-orange-600 text-white transition ease-in-out px-2 hover:bg-white dark:hover:bg-slate-900 dark:hover:text-orange-600 dark:text-slate-900 hover:text-orange-500 rounded-[5px]">View studio on scratch</a>
