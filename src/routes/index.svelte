@@ -8,7 +8,7 @@
         window.location.href = `/project/${projectId}`;
     }
     async function redirectStudio() {
-        window.location.href = `/project/${studioId}`;
+        window.location.href = `/studio/${studioId}`;
     }
 </script>
 <h1 class="text-orange-500 text-3xl text-center mb-2">Cloud games</h1>
