@@ -11,7 +11,7 @@
         window.location.href = `/studio/${studioId}`;
     }
 </script>
-<h1 class="text-orange-500 text-3xl text-center mb-2">Cloud games</h1>
+<h1 class="text-orange-500 text-3xl text-center mb-2">Scratch Cloud</h1>
 <div class="grid place-items-center">
 <div class="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 2xl:grid-cols-2 lg:w-[50%] xl:w-[40%] 2xl:w-[40%] sm:w-[60%] md:w-[60%] place-items-center">
     <div class="grid place-items-center m-2">
