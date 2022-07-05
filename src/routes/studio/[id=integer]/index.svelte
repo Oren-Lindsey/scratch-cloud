@@ -51,7 +51,7 @@
                             {#if findUsers(project.id).users.length > 0}
                             {#key update}
                             {#each findUsers(project.id).users as user}
-                                <a href="https://scratch.mit.edu/users/{user}"><code class="block text-white underline decoration-dotted decoration-gray-500">@{user}</code></a>
+                                <a href="https://scratch.mit.edu/users/{user}"><code class="block dark:text-white text-black underline decoration-dotted decoration-gray-500">@{user}</code></a>
                             {/each}
                             {/key}
                             {:else}
