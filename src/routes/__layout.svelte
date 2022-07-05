@@ -1,0 +1,23 @@
+<script>
+    import "../app.css";
+    let projectId = 0
+    async function redirect() {
+        window.location.href = `/project/${projectId}`;
+    }
+</script>
+<nav class="bg-orange-500 shadow-xl w-screen fixed">
+    <div class="grid place-items-center">
+        <a class="text-white text-xl hover:text-orange-500 hover:bg-white transition ease-in-out px-2 rounded-[5px]" href="/">Home</a>
+    </div>
+    <div class="place-items-center grid">
+        <form class="m-2" on:submit|preventDefault={redirect}>
+            <p class="inline text-white">Go to project:</p>
+            <input class="border-orange-200 border-2 active:border-orange-400 hover:border-orange-300 focus:border-orange-400 focus-visible:border-orange-400 active:outline-none focus:outline-none focus-visible:outline-none transition ease-in-out delay-75 invalid:border-red-500 rounded-[5px] p-[1px]" type="number" step="1" min=0 bind:value={projectId} placeholder="project id..." />
+            <button class="bg-orange-500 text-white transition ease-in-out px-2 hover:bg-white hover:text-orange-500 rounded-[5px]" type="submit">Go</button>
+        </form>
+    </div>
+</nav>
+<div class="w-screen h-[5.5rem]">
+    &nbsp;
+</div>
+<slot />
