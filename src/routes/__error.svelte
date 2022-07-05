@@ -13,4 +13,4 @@
     export let title;
   </script>
   
-  <h1 class="w-full text-center text-orange-500 text-2xl">{title}</h1>
+  <h1 class="w-full text-center text-orange-500 dark:text-orange-600 text-2xl">{title}</h1>
