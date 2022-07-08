@@ -17,9 +17,7 @@
         </form>
     </div>
 </nav>
-<div class="w-screen h-[5.5rem] bg-white dark:bg-slate-900">
-    &nbsp;
-</div>
-<div class="bg-white dark:bg-slate-900 min-h-screen min-w-screen h-full">
+<br>
+<div class="bg-white dark:bg-slate-900 mt-16">
     <slot />
 </div>
